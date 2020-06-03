@@ -38,7 +38,7 @@ const ListToDos = () => {
           <tr>
               <td>{todo.description}</td>
               <td><button></button>Edit</td>
-              <td>Delete</td>
+              <td><button></button>Delete</td>
           </tr>
       ))}
       </tbody>
