@@ -4,14 +4,15 @@ Simple web-app designed to make task-tracking a little less boring. Fun project 
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/get-npm) in  ```src``` folder
-
+Install and run Server using [npm](https://www.npmjs.com/get-npm) and [nodemon](https://www.npmjs.com/package/nodemon)  in  ```src``` folder
 ```bash
 npm install
-```
-Start the server-side using [nodemon](https://www.npmjs.com/package/nodemon)  in  ```src``` folder
-```bash
 nodemon index
+```
+Install and run Client 
+```bash
+npm install 
+npm start
 ```
 
 ## Usage
