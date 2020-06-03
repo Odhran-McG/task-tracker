@@ -4,12 +4,15 @@ import './App.css';
 // components
 
 import InputToDo from "./components/InputToDo";
+import ListToDo from "./components/ListToDo";
+
 
 function App() {
   return (
     <Fragment>
       <div className="container">
-        <InputToDo/>        
+        <InputToDo/>
+        <ListToDo/>        
       </div>
     </Fragment>
   );

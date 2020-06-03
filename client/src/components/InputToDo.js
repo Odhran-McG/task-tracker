@@ -9,7 +9,7 @@ const onSubmitForm = async e  => {
     try {
         // sending the request
         const body = { description };
-        const respoonse = await fetch(
+        const response = await fetch(
             "http://localhost:5000/todos", {
                 method: "POST",
                 headers: { "Content-Type": 
@@ -17,7 +17,7 @@ const onSubmitForm = async e  => {
                 body: JSON.stringify(body)
         });
 
-        console.log(respoonse);
+        window.location = "/"; 
 
     } catch (error) {
         console.error(error);
