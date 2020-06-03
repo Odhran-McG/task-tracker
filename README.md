@@ -17,7 +17,7 @@ npm start
 
 ## Usage
 
-Install package dependencies and spin up the server using the above instructions. Server running port can be changed in ```index.js```.
+Client React App will spin up and run on http://localhost:3000/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
