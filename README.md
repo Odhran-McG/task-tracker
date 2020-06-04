@@ -4,19 +4,20 @@ Simple web-app designed to make task-tracking a little less boring. Fun project 
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/get-npm) in  ```src``` folder
-
+Install and run Server using [npm](https://www.npmjs.com/get-npm) and [nodemon](https://www.npmjs.com/package/nodemon)  in  ```src``` folder
 ```bash
 npm install
-```
-Start the server-side using [nodemon](https://www.npmjs.com/package/nodemon)  in  ```src``` folder
-```bash
 nodemon index
+```
+Install and run Client 
+```bash
+npm install 
+npm start
 ```
 
 ## Usage
 
-Install package dependencies and spin up the server using the above instructions. Server running port can be changed in ```index.js```.
+Client React App will spin up and run on http://localhost:3000/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
