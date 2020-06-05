@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 
 const InputToDo = () => {
 
+// define states    
 const [ description, setDescription ] = useState(""); 
 
 const onSubmitForm = async e  => {
@@ -17,6 +18,7 @@ const onSubmitForm = async e  => {
                 body: JSON.stringify(body)
         });
 
+        // Force refresh on action to propagate changes
         window.location = "/"; 
 
     } catch (error) {

@@ -4,6 +4,8 @@ import EditTodo from "./EditToDo";
 
 const ListToDos = () => {
 
+    // Define States
+    const [todos, setTodos] = useState([]);
 
     // Delete todo function
     const deleteToDo = async (id) => {
@@ -18,13 +20,8 @@ const ListToDos = () => {
         }
     }
 
-
-    const [todos, setTodos] = useState(
-        []);
-
     // Get todo function
     const getTodos = async () => {
-
         try {
             const response = await fetch(`http://localhost:5000/todos`);
             const jsonData = await response.json();
@@ -49,13 +46,10 @@ const ListToDos = () => {
       </tr>
     </thead>
     <tbody>
-        
       {todos.map(todo => (
           <tr key={todo.todo_id}>
               <td>{todo.description}</td>
-              
               <td><EditTodo todo={todo}>Edit</EditTodo></td>
-              
               <td><button 
               className="btn btn-danger" 
               onClick={() => deleteToDo(todo.todo_id)}
