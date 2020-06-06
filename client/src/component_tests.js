@@ -1,0 +1,1 @@
+// Tests to confirm that components rendered correct html
