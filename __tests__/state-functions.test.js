@@ -10,3 +10,20 @@ describe('Addition', () => {
       expect(edit).toBe('Edit');
     });
   });
+
+
+
+  describe('Render Caption', () => {
+    it('test caption', () => {
+      const add = 'add';
+      expect(add).toBe('add');
+    });
+  });
+
+  describe('Render Caption', () => {
+    it('test caption', () => {
+      const Delete = 'delete';
+      expect(Delete).toBe('delete');
+    });
+  });
+
