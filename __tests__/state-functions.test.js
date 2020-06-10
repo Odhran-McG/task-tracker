@@ -3,3 +3,10 @@ describe('Addition', () => {
       expect(2 + 2).toBe(4);
     });
   });
+
+  describe('Render Caption', () => {
+    it('test caption', () => {
+      const edit = 'edit';
+      expect(edit).toBe('Edit');
+    });
+  });
