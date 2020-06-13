@@ -11,12 +11,3 @@ describe('Addition', () => {
     });
   });
 
-
-
-  describe('Render Caption', () => {
-    it('test caption', () => {
-      const add = 'add';
-      expect(add).toBe('add');
-    });
-  });
-
