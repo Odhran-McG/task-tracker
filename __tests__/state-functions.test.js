@@ -20,10 +20,3 @@ describe('Addition', () => {
     });
   });
 
-  describe('Render Caption', () => {
-    it('test caption', () => {
-      const Delete = 'delete';
-      expect(Delete).toBe('delete');
-    });
-  });
-
